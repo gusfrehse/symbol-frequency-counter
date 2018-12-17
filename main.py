@@ -20,5 +20,4 @@ for c in txt:
 
 for k,v in characters.items():
     characters[k]  = v / numOfChars
-
-print(characters) 
+    print(f"{characters[k]} {k}")
